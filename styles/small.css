@@ -92,8 +92,10 @@ section {
   background-color: #4FC3F7;
   color: #1E2A38;
   border: none;
+ 
   padding: 0.5rem 1rem;
   cursor: pointer;
+  margin: 0.5rem 0;
 }
 
 .filters button:hover {
@@ -125,6 +127,8 @@ footer a {
   margin: 0 0.5rem;
 }
 
+
+
 .course-title {
   background: none;
   border: none;
@@ -133,7 +137,7 @@ footer a {
   text-align: left;
   cursor: pointer;
   padding: 0;
-  margin-bottom: 0.5rem;
+
 }
 
 .course-title:hover {
