@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #1E2A38;
+  color: #FFFFFF;
+}
+
+header {
+  background-color: #2C3E50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  border-radius: 50%;
+  border: #81D4FA 3px solid;
+  height: 60px;
+}
+
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#menu {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+.navigation {
+  display: none;
+  flex-direction: column;
+  background-color: #2C3E50;
+}
+
+.navigation a {
+  color: #4FC3F7;
+  padding: 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid #1E2A38;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+    font-weight: 700;
+}
+
+.navigation.show {
+  display: flex;
+}
+
+.about img { 
+  margin-top: 1.5rem; 
+  width: 250px; 
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 50%; 
+  border: 3px solid #4FC3F7; 
+  box-shadow: 0 0 10px rgba(79, 195, 247, 0.4); }
+
+.about h2{
+  color: #4FC3F7;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.filters button {
+  margin-right: 0.5rem;
+  background-color: #4FC3F7;
+  color: #1E2A38;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #81D4FA;
+}
+
+.course-list .course {
+  background-color: #2C3E50;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-left: 5px solid #4FC3F7;
+}
+
+.course.completed {
+  border-left-color: #81C784;
+}
+
+footer {
+  background-color: #2C3E50;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #4FC3F7;
+  padding: 1rem;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.course-title {
+  background: none;
+  border: none;
+  color: #4FC3F7;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+.course-title:hover {
+  text-decoration: underline;
+}
+
+.course-description {
+  font-size: 0.95rem;
+  color: #ecf0f1;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}

@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WDD 231 Course Home Page" />
+    <meta name="author" content="Felipe Zardo" />
+    <title>WDD 231 | Home</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
+
 <body>
-    
+    <header>
+        <img src="./images/Z.svg" alt="Site Logo" class="logo" />
+        <span class="site-name">Felipe Zardo</span>
+        <button id="menu" aria-label="Menu">&#9776;</button>
+    </header>
+
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Final</a>
+
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="about">
+            <h2>About Me</h2>
+
+            <div class="about-content">
+                <p>I'm Felipe Zardo, currently living in Rio de Janeiro and working as a partner at an insurance
+                    brokerage, where I handle sales, training, and team support. Now transitioning to tech, I completed
+                    a front-end course at Vai na Web and study Software Development at BYU-Idaho. I'm passionate about
+                    using technology to solve real-world problems. I'm married, father to a 1.5-year-old, and everything
+                    I do is driven by my love for my family. In my free time, I enjoy video games, books, and comics.
+                </p>
+                <img src="images/profile.webp" alt="Felipe's Photo" />
+            </div>
+
+        </section>
+
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="filters">
+                <button id="all">All</button>
+                <button id="wdd">WDD</button>
+                <button id="cse">CSE</button>
+            </div>
+            <div id="courses" class="course-list"></div>
+            <p>Total credits: <span id="totalCredits">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Felipe Zardo | Brazil</p>
+        <p id="lastModified"></p>
+        <div class="social">
+            <a href="https://github.com/felipezardo" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/felipe-zardo/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
 </body>
+
 </html>
