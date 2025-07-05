@@ -20,6 +20,12 @@ header {
   padding: 1rem;
 }
 
+h2 {
+  color: #4FC3F7;
+ margin: 0.5rem 0;
+ 
+}
+
 .logo {
   border-radius: 50%;
   border: #81D4FA 3px solid;
@@ -60,18 +66,19 @@ header {
   display: flex;
 }
 
-.about img { 
+
+
+ .student img{
   margin-top: 1.5rem; 
   width: 250px; 
   height: 250px; 
   object-fit: cover; 
   border-radius: 50%; 
   border: 3px solid #4FC3F7; 
-  box-shadow: 0 0 10px rgba(79, 195, 247, 0.4); }
+  box-shadow: 0 0 10px rgba(79, 195, 247, 0.4);
+ 
+ }
 
-.about h2{
-  color: #4FC3F7;
-}
 
 .about-content p {
   font-size: 1.2rem;
