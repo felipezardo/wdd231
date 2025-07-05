@@ -159,3 +159,24 @@ footer a {
   margin-top: 0.5rem;
   line-height: 1.5;
 }
+
+.social {
+  margin-top: 1rem;
+}
+
+.social a {
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.social img {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(1); 
+  transition: transform 0.2s ease;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+}
+
