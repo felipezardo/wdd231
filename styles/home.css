@@ -180,3 +180,21 @@ footer a {
   transform: scale(1.1);
 }
 
+
+.navigation a.active {
+  font-weight: bold;
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  color: #666;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #0077cc;
+}
