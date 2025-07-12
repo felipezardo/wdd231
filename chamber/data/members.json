@@ -1,0 +1,58 @@
+[
+  {
+    "name": "ZenTech Solutions",
+    "address": "123 Innovation Ave",
+    "phone": "(55) 1234-5678",
+    "website": "https://zentech.com",
+    "image": "member1.avif",
+    "membership": 3
+  },
+  {
+    "name": "Rio Creative Studio",
+    "address": "456 Design Blvd",
+    "phone": "(55) 9876-5432",
+    "website": "https://riocreative.com",
+    "image": "member2.png",
+    "membership": 2
+  },
+  {
+    "name": "Carioca Coffee Co.",
+    "address": "789 Flavor Street",
+    "phone": "(55) 2222-3333",
+    "website": "https://cariocacoffee.com",
+    "image": "member3.png",
+    "membership": 1
+  },
+  {
+    "name": "Smart Finance",
+    "address": "12 Money Way",
+    "phone": "(55) 4444-5555",
+    "website": "https://smartfinance.com",
+    "image": "member4.png",
+    "membership": 2
+  },
+  {
+    "name": "TechWave Brazil",
+    "address": "98 Digital Ave",
+    "phone": "(55) 7777-8888",
+    "website": "https://techwave.com",
+    "image": "member5.png",
+    "membership": 3
+  },
+  {
+    "name": "Urban Fit Gym",
+    "address": "22 Power Road",
+    "phone": "(55) 6666-1111",
+    "website": "https://urbanfit.com",
+    "image": "member6.png",
+    "membership": 1
+  },
+  {
+    "name": "Lagoa Marketing",
+    "address": "33 Strategy Blvd",
+    "phone": "(55) 5555-0000",
+    "website": "https://lagoamarketing.com",
+    "image": "member7.png",
+    "membership": 2
+  }
+]

@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  .grid-view {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .card img {
+    float: none;
+    display: block;
+    margin: 1rem auto 0;
+  }
+
+  #menu {
+  display: none;
+}
+
+header {    
+   max-width: 300px;
+    margin: 0 auto;
+    background-color: #1E2A38;
+  }
+ 
+
+
+}
