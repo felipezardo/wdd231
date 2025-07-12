@@ -11,6 +11,11 @@
     margin: 1rem auto 0;
   }
 
+  main{
+    max-width: 60%;
+    margin: auto;
+  }
+
   /* Hide menu button */
   #menu {
     display: none;
