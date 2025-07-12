@@ -18,12 +18,10 @@
 
   /* Header refinement */
   header {
-    max-width: fit-content;
-    margin-left: 540px;
+    max-width: 400px;
+    margin: auto;
     background-color: #1E2A38;
   }
 
-  .logo {
-    margin-right: 0.5rem;
-  }
+ 
 }

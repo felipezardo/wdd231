@@ -13,6 +13,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  
 }
 
 .logo {
@@ -20,9 +21,16 @@ header {
   border-radius: 50%;
 }
 
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
 h1 {
   font-size: 1.5rem;
   color: #4FC3F7;
+  text-align: center;
 }
 
 /* Navigation */
