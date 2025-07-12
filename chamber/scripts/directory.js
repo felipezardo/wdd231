@@ -5,6 +5,26 @@ const lastModified = document.getElementById('lastModified');
 yearSpan.textContent = new Date().getFullYear();
 lastModified.textContent = `Last Modified: ${document.lastModified}`;
 
+// View toggle
+document.getElementById('grid').addEventListener('click', () => {
+  directory.classList.add('grid-view');
+  directory.classList.remove('list-view');
+});
+
+document.getElementById('list').addEventListener('click', () => {
+  directory.classList.add('list-view');
+  directory.classList.remove('grid-view');
+});
+
+// Hamburger menu toggle
+const menuButton = document.getElementById('menu');
+const nav = document.querySelector('.navigation');
+
+menuButton.addEventListener('click', () => {
+  nav.classList.toggle('open');
+});
+
+// Load member data
 async function loadMembers() {
   const response = await fetch('data/members.json');
   const members = await response.json();
@@ -32,15 +52,5 @@ function displayMembers(members) {
     directory.appendChild(card);
   });
 }
-
-document.getElementById('grid').addEventListener('click', () => {
-  directory.classList.add('grid-view');
-  directory.classList.remove('list-view');
-});
-
-document.getElementById('list').addEventListener('click', () => {
-  directory.classList.add('list-view');
-  directory.classList.remove('grid-view');
-});
 
 loadMembers();

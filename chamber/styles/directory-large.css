@@ -1,32 +1,37 @@
 @media (min-width: 768px) {
-  /* Grid layout adjustment */
+  /* Grid layout */
   .grid-view {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
-  /* Image layout */
   .card img {
     float: none;
     display: block;
     margin: 1rem auto 0;
   }
 
-  main{
+  main {
     max-width: 60%;
     margin: auto;
   }
 
-  /* Hide menu button */
+  /* Hide hamburger on large screens */
   #menu {
     display: none;
   }
 
-  /* Header refinement */
+  /* Show full nav bar */
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+
+  /* Header layout */
   header {
     max-width: 400px;
     margin: auto;
     background-color: #1E2A38;
   }
-
- 
 }
