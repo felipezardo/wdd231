@@ -1,55 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Business Directory - Rio Chamber of Commerce" />
-  <meta name="author" content="Felipe Zardo" />
-  <meta property="og:title" content="Rio Chamber Directory" />
-  <meta property="og:description" content="Explore local businesses in the Rio Chamber of Commerce." />
-  <meta property="og:image" content="https://felipezardo.github.io/wdd231/chamber/images/logo.png" />
-  <meta property="og:url" content="https://felipezardo.github.io/wdd231/chamber/directory.html" />
-  <title>Rio Chamber Directory | Felipe Zardo</title>
-  <link rel="icon" href="images/logo.png" />
-  <link rel="stylesheet" href="styles/normalize.css" />
-  <link rel="stylesheet" href="styles/directory.css" />
-  <link rel="stylesheet" href="styles/directory-large.css" />
-  <script src="scripts/directory.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Business Directory - Rio Chamber of Commerce" />
+    <meta name="author" content="Felipe Zardo" />
+
+    <!-- ✅ Open Graph Meta Tags -->
+    <meta property="og:title" content="Rio Chamber Directory" />
+    <meta property="og:description" content="Explore local businesses in the Rio Chamber of Commerce." />
+    <meta property="og:image" content="https://felipezardo.github.io/wdd231/chamber/images/logo.png" />
+    <meta property="og:image:alt" content="Rio Chamber Logo" />
+    <meta property="og:url" content="https://felipezardo.github.io/wdd231/chamber/directory.html" />
+    <meta property="og:type" content="website" />
+
+    <title>Rio Chamber Directory | Felipe Zardo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/directory.css" />
+    <link rel="stylesheet" href="styles/directory-large.css" />
+    <script src="scripts/directory.js" defer></script>
 </head>
+
 <body>
-  <header>
-    <img src="images/logo.png" alt="Rio Chamber Logo" class="logo" />
-    <h1>Business Directory</h1>
-    <button id="menu">&#9776;</button>
-  </header>
+    <header>
+        <h1>Rio Chamber Directory</h1>
+        <img src="images/logo.png" alt="Rio Chamber Logo" class="logo" />
+        <button id="menu">&#9776;</button>
+    </header>
 
-  <nav class="navigation">
-  <a href="#">Home</a>
-  <a href="#">Discover</a>
-  <a href="directory.html" class="active">Directory</a>
-  <a href="#">Join</a>
-</nav>
-<div class="breadcrumbs">
-  <a href="#">Home ></a>  <span>Current Page</span>
-</div>
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Discover</a>
+        <a href="directory.html" class="active">Directory</a>
+        <a href="#">Join</a>
+    </nav>
 
-
-  <main>
-    <div class="view-toggle">
-      <button id="grid">Grid View</button>
-      <button id="list">List View</button>
+    <div class="breadcrumbs">
+        <a href="#">Home ></a> <span>Current Page</span>
     </div>
-    <section id="directory" class="grid-view"></section>
-  </main>
 
-  <footer>
-    <p>&copy; <span id="year"></span> | Felipe Zardo | WDD 231</p>
-    <p id="lastModified"></p>
-    <address>
-       123 Chamber Ave, Rio de Janeiro, Brazil<br />
-       contact@riochamber.org<br />
-       (55) 99999-9999
-    </address>
-  </footer>
+    <main>
+        <div class="view-toggle">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+        <section id="directory" class="grid-view"></section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Felipe Zardo | WDD 231</p>
+        <p id="lastModified"></p>
+        <address>
+            123 Chamber Ave, Rio de Janeiro, Brazil<br />
+            contact@riochamber.org<br />
+            (55) 99999-9999
+        </address>
+    </footer>
 </body>
+
 </html>
