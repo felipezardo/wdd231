@@ -5,66 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Business Directory - Rio Chamber of Commerce" />
-    <meta name="author" content="Felipe Zardo" />
-
-    <!-- ✅ Open Graph Meta Tags -->
+    <meta name="author" content="Felipe Zardo" /> <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Rio Chamber Directory" />
     <meta property="og:description" content="Explore local businesses in the Rio Chamber of Commerce." />
-    <meta property="og:image" content="https://felipezardo.github.io/wdd231/chamber/images/logo.png" />
+    <meta property="og:image" content="https://felipezardo.github.io/wdd231/chamber/images/logo.avif" />
     <meta property="og:image:alt" content="Rio Chamber Logo" />
     <meta property="og:url" content="https://felipezardo.github.io/wdd231/chamber/directory.html" />
     <meta property="og:type" content="website" />
-
     <title>Rio Chamber Directory</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="icon" href="images/logo.png" />
-    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="icon" href="images/logo.avif" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles/directory.css" />
     <link rel="stylesheet" href="styles/directory-large.css" />
     <script src="scripts/directory.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <span class="site-name">Rio Chamber of Commerce</span>
-
-        <img src="images/logo.png" alt="Rio Chamber Logo" class="logo" />
-        <button id="menu">&#9776;</button>
+    <header> <span class="site-name">Rio Chamber of Commerce</span> <img src="images/logo.avif" alt="Rio Chamber Logo"
+            class="logo" width="50" height="50" /> <button id="menu" aria-label="Toggle Navigation">&#9776;</button>
     </header>
-
-    <nav class="navigation">
-        <a href="#">Home</a>
-        <a href="#">Discover</a>
-        <a href="directory.html" class="active">Directory</a>
-        <a href="#">Join</a>
-    </nav>
-
-    <div class="breadcrumbs">
-        <a href="#">Home ></a> <span>Current Page</span>
-    </div>
-
+    <nav class="navigation"> <a href="#">Home</a> <a href="#">Discover</a> <a href="directory.html"
+            class="active">Directory</a> <a href="#">Join</a> </nav>
+    <div class="breadcrumbs"> <a href="#">Home ></a> <span>Current Page</span> </div>
     <main>
         <h1>Rio Chamber Directory</h1>
-
-        <div class="view-toggle">
-            <button id="grid">Grid View</button>
-            <button id="list">List View</button>
-        </div>
-        
+        <h2>Browse Our Members</h2>
+        <section class="view-toggle" aria-label="View Mode"> <button id="grid">Grid View</button> <button id="list">List
+                View</button> </section>
         <section id="directory" class="grid-view"></section>
     </main>
-
     <footer>
         <p>&copy; <span id="year"></span> | Felipe Zardo | WDD 231</p>
         <p id="lastModified"></p>
-        <address>
-            123 Chamber Ave, Rio de Janeiro, Brazil<br />
-            contact@riochamber.org<br />
-            (55) 99999-9999
-        </address>
+        <address> 123 Chamber Ave, Rio de Janeiro, Brazil<br /> contact@riochamber.org<br /> (55) 99999-9999 </address>
     </footer>
 </body>
 

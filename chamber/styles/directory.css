@@ -73,13 +73,20 @@ h1 {
   transform: scale(1.1);
 }
 
+h2 {
+  font-size: 1.2rem;
+  color: #4FC3F7;
+  text-align: center;
+  margin-top: 1rem;
+}
+
 /* Breadcrumbs */
 .breadcrumbs {
   font-size: 0.9rem;
   margin: 1rem 0;
   color: #B3E5FC;
   padding: 0.5rem 1rem;
-  background-color: #263547;
+ 
 }
 
 .breadcrumbs a {
@@ -123,6 +130,15 @@ h1 {
   padding: 1rem;
   border-left: 5px solid #4FC3F7;
   border-radius: 5px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #B3E5FC;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
 
 .card.gold { border-left-color: gold; }

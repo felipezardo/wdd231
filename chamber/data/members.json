@@ -12,7 +12,7 @@
     "address": "456 Design Blvd",
     "phone": "(55) 9876-5432",
     "website": "https://airbaton.com/",
-    "image": "member2.png",
+    "image": "member2.avif",
     "membership": 2
   },
   {
@@ -20,7 +20,7 @@
     "address": "789 Flavor Street",
     "phone": "(55) 2222-3333",
     "website": "https://cariocacoffee.com",
-    "image": "member3.jpeg",
+    "image": "member3.avif",
     "membership": 1
   },
   {
@@ -28,7 +28,7 @@
     "address": "12 Money Way",
     "phone": "(55) 4444-5555",
     "website": "https://smartfinance.com",
-    "image": "member4.png",
+    "image": "member4.avif",
     "membership": 2
   },
   {
@@ -36,7 +36,7 @@
     "address": "98 Digital Ave",
     "phone": "(55) 7777-8888",
     "website": "https://techwave.com",
-    "image": "member5.png",
+    "image": "member5.avif",
     "membership": 3
   },
   {
@@ -44,7 +44,7 @@
     "address": "22 Power Road",
     "phone": "(55) 6666-1111",
     "website": "https://urbanfit.com",
-    "image": "member6.png",
+    "image": "member6.avif",
     "membership": 1
   },
   {
@@ -52,7 +52,7 @@
     "address": "33 Strategy Blvd",
     "phone": "(55) 5555-0000",
     "website": "https://lagoamarketing.com",
-    "image": "member7.png",
+    "image": "member7.avif",
     "membership": 2
   }
 ]
