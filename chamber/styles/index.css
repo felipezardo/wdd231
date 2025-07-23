@@ -136,6 +136,16 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.hero-text h1,
+.hero-text p {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero img {
+  filter: brightness(70%);
+}
+
+
 .cta-button {
   display: inline-block;
   background-color: #4FC3F7;
