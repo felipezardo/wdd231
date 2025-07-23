@@ -1,0 +1,275 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1E2A38;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #2C3E50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4FC3F7;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #4FC3F7;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #4FC3F7;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Navigation */
+.navigation {
+  display: none;
+  flex-direction: column;
+  background-color: #2C3E50;
+  text-align: center;
+}
+
+.navigation.open {
+  display: flex;
+}
+
+.navigation a {
+  color: #B3E5FC;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.navigation a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hamburger menu button */
+#menu {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  color: #4FC3F7;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+#menu:hover {
+  transform: scale(1.1);
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  color: #B3E5FC;
+  padding: 0.5rem 1rem;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: #4FC3F7;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  max-width: 500px;
+  background-color: rgba(30, 42, 56, 0.85); 
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.hero-text h1 {
+  font-size: 1.8rem;
+  color: #4FC3F7;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #4FC3F7;
+  color: #1E2A38;
+  padding: 0.5rem 1rem;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #81D4FA;
+}
+
+/* Events Section */
+.events {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.events ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.events li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* Weather Section */
+.weather {
+  background-color: #263547;
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+  border-top: 4px solid #4FC3F7;
+}
+
+.weather h2 {
+  text-align: center;
+  color: #4FC3F7;
+  margin-bottom: 1rem;
+}
+
+.current-weather p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.forecast {
+  margin-top: 1rem;
+}
+
+.forecast h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #B3E5FC;
+}
+
+.forecast ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.forecast li {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+}
+
+/* Spotlights Section */
+.spotlights {
+  padding: 2rem 1rem;
+}
+
+.spotlights h2 {
+  text-align: center;
+  color: #4FC3F7;
+  margin-bottom: 1rem;
+}
+
+.spotlight-container {
+  display: grid;
+  gap: 1rem;
+}
+
+.card.spotlight {
+  background-color: #2C3E50;
+  border-left: 5px solid #4FC3F7;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.card.spotlight:nth-child(even) {
+  background-color: #263547;
+}
+
+.card.spotlight img {
+  display: block;
+  margin: 0.5rem auto;
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.card.spotlight h3 {
+  font-size: 1.2rem;
+  color: #B3E5FC;
+  text-align: center;
+}
+
+.card.spotlight p {
+  font-size: 0.95rem;
+  margin: 0.25rem 0;
+  text-align: center;
+}
+
+.card.spotlight a {
+  text-decoration: none;
+  color: #B3E5FC;
+  font-size: 0.9rem;
+}
+
+.card.spotlight a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #2C3E50;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #CCCCCC;
+}

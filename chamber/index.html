@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to the Rio Chamber of Commerce – supporting local businesses and the community." />
+  <meta name="author" content="Felipe Zardo" />
+  <meta property="og:title" content="Rio Chamber Home" />
+  <meta property="og:description" content="Join, discover, and explore the local economy through the Rio Chamber of Commerce." />
+  <meta property="og:image" content="https://felipezardo.github.io/wdd231/chamber/images/hero.avif" />
+  <meta property="og:image:alt" content="Rio Chamber Hero Image" />
+  <meta property="og:url" content="https://felipezardo.github.io/wdd231/chamber/index.html" />
+  <meta property="og:type" content="website" />
+
+  <title>Rio Chamber of Commerce | Home</title>
+  <link rel="icon" href="images/logo.avif" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="styles/index-large.css" />
+  <script src="scripts/index.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <span class="site-name">Rio Chamber of Commerce</span>
+    <img src="images/logo.avif" alt="Rio Chamber Logo" class="logo" width="50" height="50" />
+    <button id="menu" aria-label="Toggle Navigation">&#9776;</button>
+  </header>
+
+  <nav class="navigation">
+    <a href="index.html" class="active">Home</a>
+    <a href="#">Discover</a>
+    <a href="directory.html">Directory</a>
+    <a href="#">Join</a>
+  </nav>
+
+  <div class="breadcrumbs">
+    <a href="#">Home ></a> <span>Current Page</span>
+  </div>
+
+  <main>
+    <!-- 🖼️ Hero Section -->
+    <section class="hero">
+      <picture>
+        <source srcset="images/hero.avif" type="image/avif" />
+        <source srcset="images/hero.webp" type="image/webp" />
+        <img src="images/hero.jpg" alt="Community of Rio de Janeiro" width="1200" height="600" />
+      </picture>
+      <div class="hero-text">
+        <h1>Welcome to the Rio Chamber of Commerce</h1>
+        <p>Empowering local businesses and strengthening community connections.</p>
+        <a href="join.html" class="cta-button">Join the Chamber</a>
+      </div>
+    </section>
+
+    <!-- 🗓️ Current Events -->
+    <section class="events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li><strong>Business Networking Breakfast</strong> – August 2</li>
+        <li><strong>Local Business Expo</strong> – August 10</li>
+        <li><strong>Chamber Town Hall</strong> – August 20</li>
+      </ul>
+    </section>
+
+    <!-- 🌦️ Weather Section -->
+    <section id="weather" class="weather">
+      <h2>Rio de Janeiro Weather</h2>
+      <div class="current-weather">
+        <p><strong>Current:</strong> <span id="temperature">--</span> °C</p>
+        <p><span id="description">Loading...</span></p>
+      </div>
+      <div class="forecast">
+        <h3>3-Day Forecast</h3>
+        <ul id="forecast">
+          <li>Loading forecast...</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 💼 Member Spotlights -->
+    <section id="spotlights" class="spotlights">
+      <h2>Featured Members</h2>
+      <div class="spotlight-container">
+        <!-- Spotlight cards will be injected here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Felipe Zardo | WDD 231</p>
+    <p id="lastModified"></p>
+    <address>
+      123 Chamber Ave, Rio de Janeiro, Brazil<br />
+      contact@riochamber.org<br />
+      (55) 99999-9999
+    </address>
+  </footer>
+</body>
+</html>
