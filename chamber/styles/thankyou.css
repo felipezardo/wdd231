@@ -1,0 +1,50 @@
+body {
+  background-color: #1E2A38;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  padding: 2rem;
+}
+
+.thankyou-main {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  background-color: #263547;
+  padding: 2rem;
+  border-radius: 8px;
+  border-top: 4px solid #4FC3F7;
+}
+
+.thankyou-main h1 {
+  font-size: 2rem;
+  color: #4FC3F7;
+  margin-bottom: 1rem;
+}
+
+.thankyou-main p {
+  font-size: 1rem;
+  color: #B3E5FC;
+  margin-bottom: 2rem;
+}
+
+.thankyou-main h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #81D4FA;
+}
+
+.thankyou-main ul {
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+}
+
+.thankyou-main li {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: #FFFFFF;
+}
+
+.thankyou-main strong {
+  color: #4FC3F7;
+}

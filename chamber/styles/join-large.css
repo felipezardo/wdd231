@@ -1,19 +1,23 @@
 @media (min-width: 768px) {
+  /*  Centered content for larger screens */
   main {
     max-width: 900px;
     margin: auto;
   }
 
+  /*  Compact header */
   header {
     max-width: 400px;
     margin: auto;
-    background-color: #1e2a38;
+    background-color: #1E2A38;
   }
 
+  /*  Hide mobile menu button */
   #menu {
     display: none;
   }
 
+  /*  Horizontal navigation menu */
   .navigation {
     display: flex;
     flex-direction: row;
@@ -21,12 +25,14 @@
     padding: 1rem 0;
   }
 
+  /*  Intro section */
   .join-intro {
     max-width: 700px;
     margin: auto;
     padding: 3rem 1rem;
   }
 
+  /* 💬 Form section */
   .form-section {
     max-width: 700px;
     margin: auto;
@@ -43,6 +49,7 @@
     flex: 1 1 300px;
   }
 
+  /*  Membership tiers */
   .membership-tiers {
     padding: 3rem 1rem;
   }
@@ -60,5 +67,16 @@
 
   .card p {
     font-size: 1rem;
+  }
+
+  .card a {
+    font-size: 0.9rem;
+  }
+
+  /*  Modals centered and responsive */
+  .modal-content {
+    margin: 5% auto;
+    max-width: 600px;
+    padding: 2rem 2.5rem;
   }
 }
