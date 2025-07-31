@@ -1,0 +1,64 @@
+@media (min-width: 768px) {
+  main {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  header {
+    max-width: 400px;
+    margin: auto;
+    background-color: #1e2a38;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+
+  .join-intro {
+    max-width: 700px;
+    margin: auto;
+    padding: 3rem 1rem;
+  }
+
+  .form-section {
+    max-width: 700px;
+    margin: auto;
+    padding: 3rem 1rem;
+  }
+
+  form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  fieldset {
+    flex: 1 1 300px;
+  }
+
+  .membership-tiers {
+    padding: 3rem 1rem;
+  }
+
+  .tier-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .card h3 {
+    font-size: 1.4rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+}
