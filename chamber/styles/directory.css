@@ -39,15 +39,21 @@ h1 {
 
 /* Navigation (mobile default: hidden) */
 .navigation {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  display: flex;
   flex-direction: column;
   background-color: #2C3E50;
   text-align: center;
 }
 
-.navigation.open {
-  display: flex;
+
+
+.navigation.open {  
+  max-height: 500px; 
 }
+
 
 .navigation a {
   color: #B3E5FC;
