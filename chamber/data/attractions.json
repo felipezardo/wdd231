@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Christ the Redeemer",
+    "image": "images/christ-redeemer.webp",
+    "address": "Parque Nacional da Tijuca, Rio de Janeiro",
+    "description": "Iconic Art Deco statue overlooking the city from Mount Corcovado, offering panoramic views of Rio."
+  },
+  {
+    "name": "Sugarloaf Mountain",
+    "image": "images/sugarloaf.webp",
+    "address": "Av. Pasteur, Urca, Rio de Janeiro",
+    "description": "Granite peak rising from the harbor, accessible by cable car with stunning views of Guanabara Bay."
+  },
+  {
+    "name": "Copacabana Beach",
+    "image": "images/copacabana.webp",
+    "address": "Av. Atlântica, Copacabana, Rio de Janeiro",
+    "description": "One of the world's most famous beaches, perfect for sunbathing, soccer, and seaside walks."
+  },
+  {
+    "name": "Lapa Arches",
+    "image": "images/lapa-arches.webp",
+    "address": "R. Riachuelo, Lapa, Rio de Janeiro",
+    "description": "Historic aqueduct turned tram bridge, surrounded by vibrant nightlife and colonial architecture."
+  },
+  {
+    "name": "Selarón Steps",
+    "image": "images/selaron-steps.webp",
+    "address": "R. Manuel Carneiro, Santa Teresa, Rio de Janeiro",
+    "description": "Colorful staircase created by artist Jorge Selarón, decorated with tiles from around the globe."
+  },
+  {
+    "name": "Botanical Garden",
+    "image": "images/botanical-garden.webp",
+    "address": "Rua Jardim Botânico, Jardim Botânico, Rio de Janeiro",
+    "description": "Lush green escape showcasing exotic plants, imperial palms, orchids, and tranquil walking paths."
+  },
+  {
+    "name": "Museum of Tomorrow",
+    "image": "images/museum-tomorrow.webp",
+    "address": "Praça Mauá, Centro, Rio de Janeiro",
+    "description": "Futuristic science museum featuring interactive exhibits on sustainability and global change."
+  },
+  {
+    "name": "Pedra Bonita",
+    "image": "images/pedra-bonita.webp",
+    "address": "Estr. da Pedra Bonita, São Conrado, Rio de Janeiro",
+    "description": "Hiking destination with breathtaking views of the Atlantic and popular hang gliding takeoff spot."
+  }
+]

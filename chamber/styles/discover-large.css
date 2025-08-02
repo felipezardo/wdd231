@@ -1,0 +1,49 @@
+@media (min-width: 641px) {
+  .grid-wrapper {
+    grid-template-areas:
+      "message message"
+      "cards cards";
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+  }
+
+  .grid-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+    header {
+    max-width: 400px;
+    margin: auto;
+    background-color: #1e2a38;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  .grid-wrapper {
+    grid-template-areas:
+      "message"
+      "cards";
+    grid-template-columns: 1fr;
+  }
+
+  .grid-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* 💫 Hover em imagens — desktop only */
+  .card figure img:hover {
+    filter: brightness(1.1) contrast(1.05) drop-shadow(2px 2px 6px #4FC3F7);
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+  }
+}
