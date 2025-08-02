@@ -55,3 +55,10 @@ const nav = document.querySelector('.navigation');
 menuButton?.addEventListener('click', () => {
   nav.classList.toggle('open');
 });
+
+document.querySelectorAll('.navigation a').forEach(link => {
+  link.addEventListener('click', () => {
+    nav.classList.remove('open');
+  });
+});
+
