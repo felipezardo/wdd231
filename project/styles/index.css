@@ -153,6 +153,33 @@ main {
   border-radius: 4px;
 }
 
+.breadcrumb {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+.breadcrumb ul {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+}
+.breadcrumb li::after {
+  content: "/";
+  margin-left: 0.5rem;
+  color: var(--text-secondary);
+}
+.breadcrumb li:last-child::after {
+  content: "";
+}
+.breadcrumb a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  color: var(--link-hover);
+}
+
+
 /* Footer */
 footer {
   text-align: center;
