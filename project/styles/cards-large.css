@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  padding: auto ;
+  
+}
+
+.branding {
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 48px;
+  height: auto;
+}
+
+
+
+#nav-links {
+  display: flex !important;
+  flex-direction: row;
+  font-size: 1.2rem;
+  gap: 1.5rem;
+  
+  margin-bottom: 1em;
+}
+
+
+
+#menu-toggle {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .visualizador img {
+    max-width: 270px;
+  }
+}
+
+@media (min-width: 900px) {
+  .visualizador img {
+    max-width: 300px;
+  }
+}

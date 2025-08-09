@@ -1,0 +1,1384 @@
+{
+  "Arcana": [
+    {
+      "nivel": 1,
+      "nome": "Andar na parede",
+      "img": "1-Andar-na-parede.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Liberar O Caos",
+      "img": "1-Liberar-O-Caos.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Proteção Runica",
+      "img": "1-Proteção-Runica.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Aperto Das Cinzas",
+      "img": "2-Aperto-Das-Cinzas.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Olho Flutuante",
+      "img": "2-Olho-Flutuante.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Contramagica",
+      "img": "3-Contramagica.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Voo",
+      "img": "3-Voo.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Piscar",
+      "img": "4-Piscar.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Preservação Explosiva",
+      "img": "4-Preservação-Explosiva.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Cadeia de Relampagos",
+      "img": "5-Cadeia-de-Relampagos.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Premonição",
+      "img": "5-Premonição.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Andarilho da Fenda",
+      "img": "6-Andarilho-da-Fenda.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Telecinese",
+      "img": "6-Telecinese.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Explosão Camuflada",
+      "img": "7-Explosão-Camuflada.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Tocado Pelo Arcano",
+      "img": "7-Tocado-Pelo-Arcano.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Aura de confusão",
+      "img": "8-Aura-de-confusão.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Retribuição Arcana",
+      "img": "8-Retribuição-Arcana.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Projeção Sensorial",
+      "img": "9-Projeção-Sensorial.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Terremoto",
+      "img": "9-Terremoto.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Ajustar Realidade",
+      "img": "10-Ajustar-Realidade.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Ceu Caindo",
+      "img": "10-Ceu-Caindo.png"
+    }
+  ],
+  "Lâmina": [
+    {
+      "nivel": 1,
+      "nome": "Não É Bom O Suficiente",
+      "img": "1-Não-É-Bom-O-Suficiente.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Nunca caído",
+      "img": "1-Nunca-caído.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Redemoinho",
+      "img": "1-Redemoinho.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Imprudente",
+      "img": "2-Imprudente.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Guerreiro Versatil",
+      "img": "3-Guerreiro-Versatil.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Rolamento",
+      "img": "3-Rolamento.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Vínculo De Soldado",
+      "img": "3-Vínculo-De-Soldado.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Armadura Fortificada",
+      "img": "4-Armadura-Fortificada.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Foco Mortal",
+      "img": "4-Foco-Mortal.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Vantagem do Campeão",
+      "img": "5-Vantagem-do-Campeão.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Vitalitidade",
+      "img": "5-Vitalitidade.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Endurecido pela batalha",
+      "img": "6-Endurecido-pela-batalha.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Furia",
+      "img": "6-Furia.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Golpe de Relance",
+      "img": "7-Golpe-de-Relance.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Tocado Pela Lamina",
+      "img": "7-Tocado-Pela-Lamina.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Frenesi",
+      "img": "8-Frenesi.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Grito de Guerra",
+      "img": "8-Grito-de-Guerra.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Ataque do Ceifador",
+      "img": "9-Ataque-do-Ceifador.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Sangramento e Gloria",
+      "img": "9-Sangramento-e-Gloria.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Massacre",
+      "img": "10-Massacre.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Monstro de Batalha",
+      "img": "10-Monstro-de-Batalha.png"
+    }
+  ],
+  "Osso": [
+    {
+      "nivel": 1,
+      "nome": "Intocável",
+      "img": "1-Intocável.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Manobras Habeis",
+      "img": "1-Manobras-Habeis.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Eu Vi Chegando",
+      "img": "2-Eu-Vi-Chegando.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Abordagem Estrategica",
+      "img": "2-Abordagem-Estrategica.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Ferocidade",
+      "img": "2-Ferocidade.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Estrategista",
+      "img": "3-Estrategista.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Resistir",
+      "img": "3-Resistir.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Impulsionar",
+      "img": "4-Impulsionar.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Redirecionar",
+      "img": "4-Redirecionar.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Conheça Vosso Inimigo",
+      "img": "5-Conheça-Vosso-Inimigo.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Golpe Unico",
+      "img": "5-Golpe-Unico.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Recuperação",
+      "img": "6-Recuperação.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Resposta Rápida",
+      "img": "6-Resposta-Rápida.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Precisão Cruel",
+      "img": "7-Precisão-Cruel.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Tocado pelos Ossos",
+      "img": "7-Tocado-pelos-Ossos.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Embaralhar",
+      "img": "8-Embaralhar.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Golpe de Ruptura",
+      "img": "8-Golpe-de-Ruptura.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Golpe Estilhaçador",
+      "img": "9-Golpe-Estilhaçador.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Na Beira",
+      "img": "9-Na-Beira.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Corrida Mortal",
+      "img": "10-Corrida-Mortal.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Passo Rapido",
+      "img": "10-Passo-Rapido.png"
+    }
+  ],
+  "Códice": [
+    {
+      "nivel": 1,
+      "nome": "Livro De Ava",
+      "img": "1-Livro-De-Ava.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Livro De Illiat",
+      "img": "1-Livro-De-Illiat.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Livro De Tyfar",
+      "img": "1-Livro-De-Tyfar.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Livro De Sitil",
+      "img": "2-Livro-De-Sitil.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Livro de Vagras",
+      "img": "2-Livro-de-Vagras.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Livro de Korvax",
+      "img": "3-Livro-de-Korvax.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Livro de Norai",
+      "img": "3-Livro-de-Norai.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Livro de Exota",
+      "img": "4-Livro-de-Exota.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Livro de Grynn",
+      "img": "4-Livro-de-Grynn.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Manifestar Muralha",
+      "img": "5-Manifestar-Muralha.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Teleporte",
+      "img": "5-Teleporte.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Banimento",
+      "img": "6-Banimento.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Sigilo de Retribuição",
+      "img": "6-Sigilo-de-Retribuição.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Livro De Homet",
+      "img": "7-Livro-De-Homet.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Tocado pelo Codex",
+      "img": "7-Tocado-pelo-Codex.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Livro De Vyola",
+      "img": "8-Livro-De-Vyola.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Porto Seguro",
+      "img": "8-Porto-Seguro.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Livro de Ronin",
+      "img": "9-Livro-de-Ronin.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Onda de Desintegração",
+      "img": "9-Onda-de-Desintegração.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Livro de Yarrow",
+      "img": "10-Livro-de-Yarrow.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "União Transcedente",
+      "img": "10-União-Transcedente.png"
+    }
+  ],
+  "Graça": [
+    {
+      "nivel": 1,
+      "nome": "Enganador Habil",
+      "img": "1-Enganador-Habil.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Enlevado",
+      "img": "1-Enlevado.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Palavras Inspiradoras",
+      "img": "1-Palavras-Inspiradoras.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Encrenqueiro",
+      "img": "2-Encrenqueiro.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Brilho Hipnótico",
+      "img": "3-Brilho-Hipnótico.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Invisibilidade",
+      "img": "3-Invisibilidade.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Atraves dos seus olhos",
+      "img": "4-Atraves-dos-seus-olhos.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Discurso Calmante",
+      "img": "4-Discurso-Calmante.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Explorador de Pensamentos",
+      "img": "5-Explorador-de-Pensamentos.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Palavras de Discordia",
+      "img": "5-Palavras-de-Discordia.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Compartilhe o Fardo",
+      "img": "6-Compartilhe-o-Fardo.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Nunca Ofuscado",
+      "img": "6-Nunca-Ofuscado.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Carisma Sem Fim",
+      "img": "7-Carisma-Sem-Fim.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Tocado pela Graça",
+      "img": "7-Tocado-pela-Graça.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Envelados Em Massa",
+      "img": "8-Envelados-Em-Massa.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Projeção Astral",
+      "img": "8-Projeção-Astral.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Imitador",
+      "img": "9-Imitador.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Mestre do Ofício",
+      "img": "9-Mestre-do-Ofício.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Bis",
+      "img": "10-Bis.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Notório",
+      "img": "10-Notório.png"
+    }
+  ],
+  "Meia-noite": [
+    {
+      "nivel": 1,
+      "nome": "Chuva de Laminas",
+      "img": "1-Chuva-de-Laminas.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Disfarce Estranho",
+      "img": "1-Disfarce-Estranho.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Mãos Leves",
+      "img": "1-Mãos-Leves.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Espirito Sombrio",
+      "img": "2-Espirito-Sombrio.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Prisão Sombria",
+      "img": "2-Prisão-Sombria.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Estrangulamento",
+      "img": "3-Estrangulamento.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Veu da Noite",
+      "img": "3-Veu-da-Noite.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Expertise em Furtividade",
+      "img": "4-Expertise-em-Furtividade.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Glifo das Sombras",
+      "img": "4-Glifo-das-Sombras.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Recuo Fantasma",
+      "img": "5-Recuo-Fantasma.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Silencio",
+      "img": "5-Silencio.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Disfarce em Massa",
+      "img": "6-Disfarce-em-Massa.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Sussurros Sombrios",
+      "img": "6-Sussurros-Sombrios.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Desaparecimento",
+      "img": "7-Desaparecimento.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Tocado pela Sombra",
+      "img": "7-Tocado-pela-Sombra.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Caçador das Sombras",
+      "img": "8-Caçador-das-Sombras.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Carga Magica",
+      "img": "8-Carga-Magica.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Pedagio do Crepusculo",
+      "img": "9-Pedagio-do-Crepusculo.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Terror da Noite",
+      "img": "9-Terror-da-Noite.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Eclipse",
+      "img": "10-Eclipse.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Espectro da Escuridão",
+      "img": "10-Espectro-da-Escuridão.png"
+    }
+  ],
+  "Sábio": [
+    {
+      "nivel": 1,
+      "nome": "Emaranhado Perverso",
+      "img": "1-Emaranhado-Perverso.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Lingua da Natureza",
+      "img": "1-Lingua-da-Natureza.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Rastreador Abençoado",
+      "img": "1-Rastreador-Abençoado.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Conjurar Enxame",
+      "img": "2-Conjurar-Enxame.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Familiar Natural",
+      "img": "2-Familiar-Natural.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Haste Imponente",
+      "img": "3-Haste-Imponente.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Projeto Corrsível",
+      "img": "3-Projeto-Corrsível.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Aperto Mortal",
+      "img": "4-Aperto-Mortal.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Campo de Cura",
+      "img": "4-Campo-de-Cura.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Fortaleza Selvagem",
+      "img": "5-Fortaleza-Selvagem.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Pele Espinhosa",
+      "img": "5-Pele-Espinhosa.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Corceis Conjurados",
+      "img": "6-Corceis-Conjurados.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Forrageira",
+      "img": "6-Forrageira.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Onda Selvagem",
+      "img": "7-Onda-Selvagem.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Tocado Pela Salvia",
+      "img": "7-Tocado-Pela-Salvia.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Barreira de Rejuvenescimento",
+      "img": "8-Barreira-de-Rejuvenescimento.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Sprites da Floresta",
+      "img": "8-Sprites-da-Floresta.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Domínio Das Plantas",
+      "img": "9-Domínio-Das-Plantas.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Templo das Selvas",
+      "img": "9-Templo-das-Selvas.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Force of Nature",
+      "img": "10-Force-of-Nature.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Tempestade",
+      "img": "10-Tempestade.png"
+    }
+  ],
+  "Esplendor": [
+    {
+      "nivel": 1,
+      "nome": "Farol de Luz",
+      "img": "1-Farol-de-Luz.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Resseguro",
+      "img": "1-Resseguro.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Toque Curativo",
+      "img": "1-Toque-Curativo.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Cura Pelas Mãos",
+      "img": "2-Cura-Pelas-Mãos.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Palavras Finais",
+      "img": "2-Palavras-Finais.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Recuperar O Folego",
+      "img": "3-Recuperar-O-Folego.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Voz da Razão",
+      "img": "3-Voz-da-Razão.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Adivinhação",
+      "img": "4-Adivinhação.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Glifo Da Vida",
+      "img": "4-Glifo-Da-Vida.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Destruir",
+      "img": "5-Destruir.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Mouldar Material",
+      "img": "5-Mouldar-Material.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Restauração",
+      "img": "6-Restauração.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Zona de Proteção",
+      "img": "6-Zona-de-Proteção.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Golpe Curativo",
+      "img": "7-Golpe-Curativo.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Tocado pelo Esplendor",
+      "img": "7-Tocado-pelo-Esplendor.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Aura de Escudo",
+      "img": "8-Aura-de-Escudo.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Luz Solar Deslumbrante",
+      "img": "8-Luz-Solar-Deslumbrante.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Aura Avassaladora",
+      "img": "9-Aura-Avassaladora.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Feixe de Salvação",
+      "img": "9-Feixe-de-Salvação.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Resurreição",
+      "img": "10-Resurreição.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Revigoração",
+      "img": "10-Revigoração.png"
+    }
+  ],
+  "Valor": [
+    {
+      "nivel": 1,
+      "nome": "Empurrão Forte",
+      "img": "1-Empurrão-Forte.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Eu Sou Seu Escudo",
+      "img": "1-Eu-Sou-Seu-Escudo.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Ossos Nus",
+      "img": "1-Ossos-Nus.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Destruidor de Corpo",
+      "img": "2-Destruidor-de-Corpo.png"
+    },
+    {
+      "nivel": 2,
+      "nome": "Presença Ousada",
+      "img": "2-Presença-Ousada.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Apoie-se Em Mim",
+      "img": "3-Apoie-se-Em-Mim.png"
+    },
+    {
+      "nivel": 3,
+      "nome": "Inspiração Decisiva",
+      "img": "3-Inspiração-Decisiva.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Incite-os",
+      "img": "4-Incite-os.png"
+    },
+    {
+      "nivel": 4,
+      "nome": "Tanque de Suporte",
+      "img": "4-Tanque-de-Suporte.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Armeiro",
+      "img": "5-Armeiro.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Golpe Estimulante",
+      "img": "5-Golpe-Estimulante.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Erguer-se",
+      "img": "6-Erguer-se.png"
+    },
+    {
+      "nivel": 6,
+      "nome": "Inevitável",
+      "img": "6-Inevitável.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Ignorar",
+      "img": "7-Ignorar.png"
+    },
+    {
+      "nivel": 7,
+      "nome": "Tocado pelo Valor",
+      "img": "7-Tocado-pelo-Valor.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Golpe Terremoto",
+      "img": "8-Golpe-Terremoto.png"
+    },
+    {
+      "nivel": 8,
+      "nome": "Surto total",
+      "img": "8-Surto-total.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Guiar Por Exemplo",
+      "img": "9-Guiar-Por-Exemplo.png"
+    },
+    {
+      "nivel": 9,
+      "nome": "Segurar a Frente",
+      "img": "9-Segurar-a-Frente.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Armadura Inflexível",
+      "img": "10-Armadura-Inflexível.png"
+    },
+    {
+      "nivel": 10,
+      "nome": "Inquebravel",
+      "img": "10-Inquebravel.png"
+    }
+    
+  ],
+  "Raças": [
+    {
+      "nivel": 1,
+      "nome": "Celeste",
+      "img": "Aetheris.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Anao",
+      "img": "Anão.png"
+    },
+     {
+      "nivel": 1,
+      "nome": "Clank",
+      "img": "Clank.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Drakona",
+      "img": "Drakona.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Elfo",
+      "img": "Elfo.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Fada",
+      "img": "Fada.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Fauno",
+      "img": "Fauno.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Firbolg",
+      "img": "Firbolg.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Fungril",
+      "img": "Fungril.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Galapa",
+      "img": "Galapa.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Gigante",
+      "img": "Gigante.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Goblin",
+      "img": "Goblin.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Halfling",
+      "img": "Halfling.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Humano",
+      "img": "Humano.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Infernis",
+      "img": "Infernis.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Katari",
+      "img": "Katari.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Orc",
+      "img": "Orc.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Ribbet",
+      "img": "Ribbet.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Simiah",
+      "img": "Simiah.png"
+    }
+
+  ],
+ "Comunidades": [
+    {
+      "nivel": 1,
+      "nome": "Highborne",
+      "img": "Highborne.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Loreborne",
+      "img": "Loreborne.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Orderborne",
+      "img": "Orderborne.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Ridgeborne",
+      "img": "Ridgeborne.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Seaborne",
+      "img": "Seaborne.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Slyborne",
+      "img": "Slyborne.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Underborne",
+      "img": "Underborne.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Wanderborne",
+      "img": "Wanderborne.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Wildborne",
+      "img": "Wildborne.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Warborne",
+      "img": "Warborne.png"
+    }
+  ],
+   "Sub-Classes": [
+    {
+      "nivel": 5,
+      "nome": "Andarilho Das Sombras",
+      "img": "Andarilho Das Sombras Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Andarilho Das Sombras",
+      "img": "Andarilho Das Sombras Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Bastião",
+      "img": "Bastião Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Bastião",
+      "img": "Bastião Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Bastião",
+      "img": "Bastião Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Caçador",
+      "img": "Caçador Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Caçador",
+      "img": "Caçador Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Caçador",
+      "img": "Caçador Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Chamado da Bravura",
+      "img": "Chamado da Bravura Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Chamado da Bravura",
+      "img": "Chamado da Bravura Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Chamado da Bravura",
+      "img": "Chamado da Bravura Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Chamado do Matador",
+      "img": "Chamado do Matador Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Chamado do Matador",
+      "img": "Chamado do Matador Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Chamado do Matador",
+      "img": "Chamado do Matador Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Escola da Guerra",
+      "img": "Escola da Guerra Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Escola da Guerra",
+      "img": "Escola da Guerra Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Escola da Guerra",
+      "img": "Escola da Guerra Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Escola do Conhecimento",
+      "img": "Escola do Conhecimento Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Escola do Conhecimento",
+      "img": "Escola do Conhecimento Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Escola do Conhecimento",
+      "img": "Escola do Conhecimento Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Mestre das Feras",
+      "img": "Mestre das Feras Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Mestre das Feras",
+      "img": "Mestre das Feras Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Mestre das Feras",
+      "img": "Mestre das Feras Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Orador",
+      "img": "Orador Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Orador",
+      "img": "Orador Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Orador",
+      "img": "Orador Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Origem Elemental",
+      "img": "Origem Elemental Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Origem Elemental",
+      "img": "Origem Elemental Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Origem Elemental",
+      "img": "Origem Elemental Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Origem Primordial",
+      "img": "Origem Primordial Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Origem Primordial",
+      "img": "Origem Primordial Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Origem Primordial",
+      "img": "Origem Primordial Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Portador Divino",
+      "img": "Portador Divino Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Portador Divino",
+      "img": "Portador Divino Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Portador Divino",
+      "img": "Portador Divino Maestria.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Protetor Da Renovação",
+      "img": "Protetor Da Renovação Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Protetor Da Renovação",
+      "img": "Protetor Da Renovação Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Protetor Dos Elementos",
+      "img": "Protetor Dos Elementos Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Protetor Dos Elementos",
+      "img": "Protetor Dos Elementos Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Protetor Dos Elementos",
+      "img": "Protetor Dos Elementos Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Sentinela Alado",
+      "img": "Sentinela Alado Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Sentinela Alado",
+      "img": "Sentinela Alado Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Sentinela Alado",
+      "img": "Sentinela Alado Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Sindicato",
+      "img": "Sindicato Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Sindicato",
+      "img": "Sindicato Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Sindicato",
+      "img": "Sindicato Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Trovador",
+      "img": "Trovador Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Trovador",
+      "img": "Trovador Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Trovador",
+      "img": "Trovador Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Vingador",
+      "img": "Vingador Fundação.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Vingador",
+      "img": "Vingador Especialização.png"
+    },
+    {
+      "nivel": 5,
+      "nome": "Vingador",
+      "img": "Vingador Maestria.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Guilda dos Executores",
+      "img": "Guilda dos Executores.png"
+    },
+    {
+      "nivel": 1,
+      "nome": "Juggernaut",
+      "img": "Juggernaut Fundação.png"
+    }
+  ]
+   
+}
