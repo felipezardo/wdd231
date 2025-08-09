@@ -333,6 +333,20 @@ main {
 .icon-btn:focus {
   outline: 2px solid #388bfd;}
 
+  /* Classes presentes no HTML mas sem estilo definido */
+.adicionar-btn:hover {
+  background: var(--btn-bg-hover);
+  color: var(--btn-text);
+
+}
+.mini-controles {
+  display: flex;
+  gap: 0.5rem;
+  
+
+}
+
+
 footer {
   text-align: center;
   padding: 1rem;
