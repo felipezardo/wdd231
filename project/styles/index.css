@@ -96,6 +96,12 @@ main {
   align-items: center;
   justify-content: center;
   padding: 2rem 1rem;
+ 
+  
+}
+
+.home {
+  display: none;
 }
 
 .intro {
