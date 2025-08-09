@@ -127,6 +127,7 @@ main {
   opacity: 1;
   transition: all 0.3s ease;
   overflow: hidden;
+ 
 }
 
 .cartas-panel.retraido {
@@ -159,7 +160,7 @@ main {
 }
 
 .cartas-toggle.aberto {
-  background-color: var(--btn-bg-active);
+  background-color: var(--btn-bg);
   color: var(--btn-text);
 }
 
@@ -280,6 +281,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 1rem ;
 }
 
 .visualizador img {
@@ -360,6 +362,17 @@ main {
   display: none !important;
 }
 
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+
 /* Animation */
 @keyframes fadeIn {
   from {
@@ -369,6 +382,23 @@ main {
     opacity: 1;
   }
 }
+
+#toastAviso {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--btn-border);
+  color: var(--text-main);
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-family: var(--font-family);
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
 
 /* Media Queries */
 @media (min-width: 600px) {
