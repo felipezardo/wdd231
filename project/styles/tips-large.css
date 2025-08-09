@@ -1,0 +1,45 @@
+/* Desktop layout */
+header {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.branding {
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 48px;
+  height: auto;
+}
+
+#nav-links {
+  display: flex !important;
+  flex-direction: row;
+  font-size: 1.2rem;
+  gap: 1.5rem;
+  margin-bottom: 1em;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+main {
+  padding: 3rem 0;
+}
+
+.intro {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.text {
+  flex: 1;
+  padding-right: 2rem;
+}

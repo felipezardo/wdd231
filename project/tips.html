@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Send a Tip | Daggerheart Cards Manager</title>
+  
+  <link rel="stylesheet" href="styles/tips.css" />
+  <link rel="stylesheet" href="styles/tips-large.css" media="screen and (min-width: 768px)" />
+</head>
+<body>
+  <header>
+    <div class="branding">
+      <img src="images/logo.png" alt="Daggerheart logo" class="logo" />
+      <h1>Daggerheart Cards Manager</h1>
+    </div>
+    <nav>
+      <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cards.html">Cards</a></li>
+        <li><a href="tips.html">Send a Tip</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="text">
+        <h2>Send a Tip</h2>
+        <p>Build your card</p>
+        <form>
+          <label for="card-type">Card Type</label>
+          <select id="card-type" name="card-type" required>
+            <option value="">Select a type</option>
+            <option value="class">Class</option>
+            <option value="sub-class">Sub-class</option>
+            <option value="domain">Domain</option>
+            <option value="community">Community</option>
+            <option value="ancestry">Ancestry</option>
+          </select>
+
+          <label for="description">Card Description</label>
+          <textarea id="description" name="description" rows="6" required></textarea>
+
+          <button type="submit" class="cta-button">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+    <div id="toast" class="toast hidden">✅ Tip sent successfully!</div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Felipe Zardo — Project for WDD231</p>
+  </footer>
+
+  <script src="scripts/index.js"></script>
+</body>
+</html>
