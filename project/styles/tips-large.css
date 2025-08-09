@@ -1,9 +1,11 @@
 /* Desktop layout */
 header {
-  flex-direction: row;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: left;
+ 
+  
 }
 
 .branding {
