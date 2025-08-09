@@ -355,3 +355,21 @@ footer {
   font-size: 0.9rem;
   color: var(--text-secondary);
 }
+
+/* Adicionado para evitar alertas de CSS não utilizado */
+.cartas-toggle.aberto {
+  background-color: var(--btn-bg-active);
+  color: var(--btn-text);
+}
+
+/* Estilos dinâmicos usados via JS */
+.filtro-btn.ativo {
+  background-color: var(--link-color);
+  color: #fff;
+  border-color: var(--link-hover);
+}
+
+.hidden {
+  display: none !important;
+}
+
