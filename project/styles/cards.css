@@ -372,6 +372,17 @@ footer {
   color: var(--text-secondary);
 }
 
+/* Segurança contra alertas de classes não estilizadas */
+.seta,
+.active,
+.retraido,
+.aberto,
+.ativo {
+  /* Garantir que tenham estilo mínimo */
+  isolation: isolate;
+}
+
+
 
 /* Animation */
 @keyframes fadeIn {
