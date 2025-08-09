@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
 document.querySelector('form').addEventListener('submit', function(e) {
   e.preventDefault();
 
-  // Simula envio (você pode colocar lógica real aqui)
+  // Simulate sending tip (you can replace this with actual logic)
   showToast("✅ Tip sent successfully!");
 
-  // Limpa o formulário
+  // Clear form
   this.reset();
 });
 
@@ -27,5 +27,5 @@ function showToast(message) {
   setTimeout(() => {
     toast.classList.remove('show');
     toast.classList.add('hidden');
-  }, 3000); // 3 segundos
+  }, 3000); // 3 seconds
 }

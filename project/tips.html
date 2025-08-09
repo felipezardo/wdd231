@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
+ <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Daggerheart Cards Manager" />
+  <meta name="description" content="Manage your Daggerheart cards with ease. Build your deck, explore domains, and prepare for your next adventure." />
+<meta name="author" content="Felipe Zardo" />
+
+<meta property="og:description" content="A tool to manage your Daggerheart cards and character loadouts." />
+<meta property="og:image" content="https://felipezardo.github.io/wdd231/project/images/hero.avif" />
+<meta property="og:url" content="https://felipezardo.github.io/wdd231/project/" />
   <title>Send a Tip | Daggerheart Cards Manager</title>
-  
+
   <link rel="stylesheet" href="styles/tips.css" />
   <link rel="stylesheet" href="styles/tips-large.css" media="screen and (min-width: 768px)" />
-    <link href="https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap"
     rel="stylesheet">
   <link rel="icon" href="images/logo.png" type="image/png" />
 </head>
+
 <body>
   <header>
     <div class="branding">
@@ -22,11 +31,14 @@
       <ul id="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="cards.html">Cards</a></li>
-        <li><a href="tips.html">Send a Tip</a></li>
+        <li><a href="tips.html" class="active">Send a Tip</a></li>
       </ul>
     </nav>
   </header>
 
+  <div class="breadcrumbs">
+    <a href="index.html">Home ></a> <span>Send a Tip</span>
+  </div>
   <main>
     <section class="intro">
       <div class="text">
@@ -60,4 +72,5 @@
 
   <script src="scripts/tips.js"></script>
 </body>
+
 </html>
