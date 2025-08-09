@@ -1,35 +1,39 @@
 :root {
-  --bg-primary: #0e1117;
-  --bg-surface: #161b22;
-  --border-color: #30363d;
-  --text-main: #f0f6fc;
-  --text-secondary: #8b949e;
-  --link-color: #58a6ff;
-  --link-hover: #1f6feb;
-  --focus-color: #388bfd;
+  --bg-primary: #0E1117;
+  --bg-surface: #161B22;
+  --border-color: #30363D;
+  --text-main: #F0F6FC;
+  --text-secondary: #8B949E;
+  --link-color: #58A6FF;
+  --link-hover: #1F6FEB;
+  --focus-color: #388BFD;
   --font-family: "Yrsa", serif;
-  --btn-bg: #21262d;
+  --btn-bg: #21262D;
   --btn-bg-hover: var(--link-hover);
   --btn-bg-active: var(--link-color);
   --btn-text: var(--text-main);
   --btn-border: var(--border-color);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body,
-html {
+
+html, body {
   height: 100%;
 }
+
 body {
-  background: linear-gradient(to right, #1e2a3a, var(--bg-primary));
+  background: linear-gradient(to right, #1E2A3A, var(--bg-primary));
   font-family: var(--font-family);
   color: var(--text-main);
   display: flex;
   flex-direction: column;
 }
+
+/* Header */
 header {
   background: var(--bg-primary);
   padding: 1.5rem;
@@ -37,28 +41,35 @@ header {
   display: flex;
   flex-direction: column;
 }
+
 .branding {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
+
 .logo {
   width: 64px;
   height: auto;
 }
+
 header h3 {
   font-size: 1.5rem;
 }
+
+/* Navigation */
 nav {
   margin-top: 1rem;
 }
+
 #menu-toggle {
   font-size: 1.5rem;
-  background: 0 0;
+  background: none;
   border: none;
   color: var(--link-color);
   cursor: pointer;
 }
+
 #nav-links {
   display: none;
   list-style: none;
@@ -66,31 +77,45 @@ nav {
   gap: 0.5rem;
   margin-top: 1rem;
 }
+
+#nav-links.open {
+  display: flex;
+}
+
 #nav-links a {
   text-decoration: none;
   color: var(--link-color);
 }
+
 #nav-links a:hover {
   color: var(--link-hover);
 }
+
 #nav-links a.active {
-  font-weight: 700;
+  font-weight: bold;
   color: var(--focus-color);
   text-decoration: underline;
 }
+
+/* Breadcrumbs */
 .breadcrumbs {
   font-size: 0.9rem;
   margin: 1rem 0;
   color: var(--text-main);
   padding: 0.5rem 1rem;
 }
+
 .breadcrumbs a {
   text-decoration: none;
   color: var(--focus-color);
 }
+
+/* Main */
 main {
   padding: 1.5rem;
 }
+
+/* Panels */
 .cartas-panel {
   animation: fadeIn 0.3s ease-in;
   display: flex;
@@ -102,7 +127,9 @@ main {
   opacity: 1;
   transition: all 0.3s ease;
   overflow: hidden;
+ 
 }
+
 .cartas-panel.retraido {
   display: none;
   max-height: 0;
@@ -111,10 +138,13 @@ main {
   margin: 0;
   pointer-events: none;
 }
+
 .cartas-panel:not(#cartasPanel) {
   max-height: none;
   overflow: visible;
 }
+
+/* Toggle buttons */
 .cartas-toggle {
   width: 100%;
   display: flex;
@@ -125,45 +155,84 @@ main {
   padding: 0.8rem;
   border: none;
   border-bottom: 1px solid var(--btn-border);
-  font-weight: 700;
+  font-weight: bold;
   cursor: pointer;
 }
+
+.cartas-toggle.aberto {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+}
+
 .cartas-toggle .seta {
   display: inline-block;
   transition: transform 0.3s ease;
-  transform: rotate(0);
+  transform: rotate(0deg);
 }
+
+.cartas-toggle.aberto .seta {
+  transform: rotate(90deg);
+}
+
+/* Controls */
 .cartas-controls {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.cartas-controls input[type="text"] {
+
+.cartas-controls input[type=text] {
   padding: 0.5rem;
   border-radius: 4px;
   border: 1px solid var(--btn-border);
   background: var(--bg-surface);
   color: var(--text-main);
 }
+
 .cartas-controls .checkbox-group {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
+
 .cartas-controls .filtros {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
 }
+
 .cartas-controls .filtros label {
   display: flex;
   flex-direction: column;
   font-size: 0.9rem;
   color: var(--text-secondary);
 }
-.cartas-controls .filtros label input[type="checkbox"] {
+
+.cartas-controls .filtros label input[type=checkbox] {
   margin-top: 0.2rem;
 }
+
+.cartas-controls .filtro-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--btn-border);
+  background-color: #2b323b;
+  color: var(--text-main);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.3s;
+}
+
+.cartas-controls .filtro-btn:hover {
+  background-color: var(--link-hover);
+}
+
+.cartas-controls .filtro-btn.ativo {
+  background-color: var(--link-color);
+  color: #fff;
+  border-color: var(--link-hover);
+}
+
 .cartas-controls .limpar-btn {
   align-self: flex-start;
   padding: 0.4rem 0.8rem;
@@ -173,10 +242,12 @@ main {
   border-radius: 4px;
   cursor: pointer;
 }
+
 .cartas-controls .limpar-btn:hover {
   background: var(--link-hover);
   color: var(--btn-text);
 }
+/* Card list */
 .cartas-conteudo {
   display: flex;
   flex-wrap: wrap;
@@ -184,6 +255,7 @@ main {
   align-items: flex-start;
   justify-content: center;
 }
+
 .lista-cartas {
   max-height: 250px;
   overflow-y: auto;
@@ -192,13 +264,26 @@ main {
   background-color: var(--bg-surface);
   padding: 0.5rem;
 }
+
+.carta-lista-item {
+  padding: 0.4rem;
+  border-bottom: 1px solid var(--btn-border);
+  cursor: pointer;
+}
+
+.carta-lista-item:hover {
+  background-color: var(--btn-bg);
+}
+
+/* Viewer */
 .visualizador {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 1rem ;
 }
+
 .visualizador img {
   width: 100%;
   height: auto;
@@ -207,6 +292,7 @@ main {
   border: 1px solid var(--btn-border);
   margin-bottom: 0.5rem;
 }
+
 .adicionar-btn {
   padding: 0.4rem 0.8rem;
   background: var(--btn-bg);
@@ -215,10 +301,40 @@ main {
   border-radius: 4px;
   cursor: pointer;
 }
+
 .adicionar-btn:hover {
   background: var(--btn-bg-hover);
   color: var(--btn-text);
 }
+
+/* Mini cards */
+.mini-carta {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 360/504;
+  margin-bottom: 1rem;
+  border: 1px solid var(--btn-border);
+  border-radius: 6px;
+  background-color: var(--bg-surface);
+  overflow: hidden;
+}
+
+.mini-carta img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+.mini-controles {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  display: flex;
+  gap: 0.4rem;
+}
+
+/* Icon buttons */
 .icon-btn {
   background: var(--btn-border);
   border: none;
@@ -228,12 +344,25 @@ main {
   border-radius: 4px;
   transition: background 0.2s;
 }
+
+.icon-btn svg {
+  pointer-events: none;
+}
+
 .icon-btn:hover {
   background: var(--btn-bg);
 }
+
 .icon-btn:focus {
   outline: 2px solid var(--focus-color);
 }
+
+/* Utility */
+.hidden {
+  display: none !important;
+}
+
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
@@ -242,11 +371,20 @@ footer {
   font-size: 0.9rem;
   color: var(--text-secondary);
 }
+
+/* Segurança contra alertas de classes não estilizadas */
+.seta,
 .active,
 .retraido,
-.seta {
+.aberto,
+.ativo {
+  /* Garantir que tenham estilo mínimo */
   isolation: isolate;
 }
+
+
+
+/* Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -255,6 +393,25 @@ footer {
     opacity: 1;
   }
 }
+
+#toastAviso {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--btn-border);
+  color: var(--text-main);
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-family: var(--font-family);
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+/* Media Queries */
 @media (min-width: 600px) {
   header {
     flex-direction: row;
@@ -262,14 +419,17 @@ footer {
     align-items: center;
     text-align: left;
   }
+
   .branding {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
   }
+
   .logo {
     width: 48px;
   }
+
   #nav-links {
     display: flex !important;
     flex-direction: row;
@@ -277,15 +437,20 @@ footer {
     gap: 1.5rem;
     margin-bottom: 1em;
   }
+
   #menu-toggle {
     display: none;
   }
-  .visualizador img {
+
+  .visualizador img,
+  .mini-carta {
     max-width: 270px;
   }
 }
+
 @media (min-width: 900px) {
-  .visualizador img {
+  .visualizador img,
+  .mini-carta {
     max-width: 300px;
   }
 }
