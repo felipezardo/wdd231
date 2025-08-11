@@ -1,5 +1,5 @@
 {
-  "Arcana": [
+  "Arcane": [
     {
       "nivel": 1,
       "nome": "Andar na parede",
@@ -106,7 +106,7 @@
       "img": "10-Ceu-Caindo.png"
     }
   ],
-  "Lâmina": [
+  "Blade": [
     {
       "nivel": 1,
       "nome": "Não É Bom O Suficiente",
@@ -213,7 +213,7 @@
       "img": "10-Monstro-de-Batalha.png"
     }
   ],
-  "Osso": [
+  "Bone": [
     {
       "nivel": 1,
       "nome": "Intocável",
@@ -320,7 +320,7 @@
       "img": "10-Passo-Rapido.png"
     }
   ],
-  "Códice": [
+  "Codex": [
     {
       "nivel": 1,
       "nome": "Livro De Ava",
@@ -427,7 +427,7 @@
       "img": "10-União-Transcedente.png"
     }
   ],
-  "Graça": [
+  "Grace": [
     {
       "nivel": 1,
       "nome": "Enganador Habil",
@@ -529,7 +529,7 @@
       "img": "10-Notório.png"
     }
   ],
-  "Meia-noite": [
+  "Midnight": [
     {
       "nivel": 1,
       "nome": "Chuva de Laminas",
@@ -636,7 +636,7 @@
       "img": "10-Espectro-da-Escuridão.png"
     }
   ],
-  "Sábio": [
+  "Sage": [
     {
       "nivel": 1,
       "nome": "Emaranhado Perverso",
@@ -743,7 +743,7 @@
       "img": "10-Tempestade.png"
     }
   ],
-  "Esplendor": [
+  "Splendor": [
     {
       "nivel": 1,
       "nome": "Farol de Luz",
@@ -956,9 +956,8 @@
       "nome": "Inquebravel",
       "img": "10-Inquebravel.png"
     }
-    
   ],
-  "Raças": [
+  "Ancestry": [
     {
       "nivel": 1,
       "nome": "Celeste",
@@ -969,7 +968,7 @@
       "nome": "Anao",
       "img": "Anão.png"
     },
-     {
+    {
       "nivel": 1,
       "nome": "Clank",
       "img": "Clank.png"
@@ -1054,9 +1053,8 @@
       "nome": "Simiah",
       "img": "Simiah.png"
     }
-
   ],
- "Comunidades": [
+  "Communities": [
     {
       "nivel": 1,
       "nome": "Highborne",
@@ -1108,7 +1106,7 @@
       "img": "Warborne.png"
     }
   ],
-   "Sub-Classes": [
+  "Subclasses": [
     {
       "nivel": 5,
       "nome": "Andarilho Das Sombras",
@@ -1380,5 +1378,4 @@
       "img": "Juggernaut Fundação.png"
     }
   ]
-   
 }

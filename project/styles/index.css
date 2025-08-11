@@ -184,4 +184,16 @@ footer {
   border-top: 1px solid var(--border-color);
   font-size: 0.9rem;
   color: var(--text-secondary);
+  
+}
+
+
+footer a {
+  color: var(--focus-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
